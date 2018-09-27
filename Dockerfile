@@ -6,7 +6,7 @@ WORKDIR /app
 
 RUN pip --no-cache-dir install --upgrade pip
 
-RUN pip --no-cache-dir install numpy pandas seaborn jupyter
+RUN pip --no-cache-dir install numpy pandas seaborn jupyter sklearn
 
 EXPOSE 8888
 
