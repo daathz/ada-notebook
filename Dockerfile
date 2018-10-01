@@ -2,7 +2,7 @@ FROM python:3.6.5
 
 LABEL maintainer="Viktor Novák <novk.viktor@gmail.com>"
 
-COPY . /app
+COPY ./requirements.txt /app/
 
 COPY ./jupyter_notebook_config.py /root/.jupyter/
 
