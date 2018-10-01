@@ -2,11 +2,13 @@ FROM python:3.6.5
 
 LABEL maintainer="Viktor Novák <novk.viktor@gmail.com>"
 
+COPY . /app 
+
 WORKDIR /app
 
 RUN pip --no-cache-dir install --upgrade pip
 
-RUN pip --no-cache-dir install numpy pandas seaborn jupyter sklearn
+RUN pip --no-cache-dir install -r requirements.txt
 
 EXPOSE 8888
 
