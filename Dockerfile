@@ -16,4 +16,4 @@ EXPOSE 8888
 
 VOLUME /app
 
-CMD ["jupyter", "notebook", "--allow-root"]
+CMD ["jupyter", "lab", "--allow-root"]
