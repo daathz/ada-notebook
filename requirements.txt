@@ -1,7 +1,8 @@
 jupyter
 jupyterlab
 numpy
+scipy
 pandas
 matplotlib
 seaborn
-sklearn
+scikit-learn
