@@ -4,7 +4,7 @@
 
 #### For creating the container use:
 ```
-docker run -p 8888:8888 -v [WORKING DIRECTORY PATH]:/app --name [CONTAINER NAME] daathz/data-analytics-notebook
+docker run -p 8888:8888 -v [WORKING DIRECTORY PATH]:/app --name [CONTAINER NAME] daathz/data-analytics-notebook:lab
 ```
 
 #### For running existing container:
